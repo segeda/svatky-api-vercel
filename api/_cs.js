@@ -708,7 +708,7 @@ function who(who) {
     'Tereza': '1510',
     'Tibor': '1311',
     'Tomáš': '0703',
-    'Tobiáš': '0211'
+    'Tobiáš': '0211',
     'Václav': '2809',
     'Valdemar': '2705',
     'Valentýn': '1402',
