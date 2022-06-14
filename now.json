@@ -1,26 +1,24 @@
 {
-  "regions": [
-    "bru1"
-  ],
+  "regions": ["bru1"],
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/json",
+      "source": "/(json|txt|xml)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "Author",
+          "value": "Petr Severa [https://ko-fi.com/segeda]"
         }
       ]
     },
     {
       "source": "/txt",
       "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
         {
           "key": "Content-Type",
           "value": "text/plain; charset=utf-8"
@@ -30,10 +28,6 @@
     {
       "source": "/xml",
       "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
         {
           "key": "Content-Type",
           "value": "text/xml; charset=utf-8"
