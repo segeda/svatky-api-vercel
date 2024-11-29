@@ -1,4 +1,4 @@
-﻿function when(when) {
+function when(when) {
   var json_data = {
     '0102': 'Tatiana',
     '0103': 'Albín',

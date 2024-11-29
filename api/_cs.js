@@ -1,4 +1,4 @@
-﻿function when(when) {
+function when(when) {
   var json_data = {
     '0101': ['Den obnovy samostatného českého státu', 'Nový rok'],
     '0102': 'Hynek',
