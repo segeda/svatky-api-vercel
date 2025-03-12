@@ -1,5 +1,7 @@
 {
-  "regions": ["bru1"],
+  "regions": [
+    "fra1"
+  ],
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
